@@ -1,6 +1,6 @@
 import React from 'react';
 import {SafeAreaView, StyleSheet} from 'react-native';
-import Main from './src/components/Main';
+import {Main} from "./src/components/Main.tsx";
 
 function App(): React.JSX.Element {
   return (
