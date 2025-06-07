@@ -26,3 +26,11 @@
     node 18.18.0
     android 15 35.0
 ````
+
+<br />
+<br />
+
+`의존성`
+````
+    yarn add react-native-linear-gradient
+````
