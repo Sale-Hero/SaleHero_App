@@ -20,6 +20,20 @@
 <br />
 <br />
 
+`기타 설치`
+````
+    // 시뮬레이터
+    gem install cocoapods
+    brew install cocoapods
+    
+    pod setup
+    pod install
+    open SaleHero_App.xcworkspace
+````
+
+<br />
+<br />
+
 `버전`
 ````
 
