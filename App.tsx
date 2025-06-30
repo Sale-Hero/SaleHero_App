@@ -1,19 +1,17 @@
 import React from 'react';
-import {SafeAreaView, StyleSheet} from 'react-native';
-import {Main} from "./src/components/Main.tsx";
+import { ThemeProvider } from 'styled-components/native';
+import { theme } from './src/constants/theme';
+import RootNavigator from './src/navigations/RootNavigator';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 
 function App(): React.JSX.Element {
   return (
-    <SafeAreaView style={styles.container}>
-      <Main />
-    </SafeAreaView>
+    <SafeAreaProvider>
+      <ThemeProvider theme={theme}>
+        <RootNavigator />
+      </ThemeProvider>
+    </SafeAreaProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-});
 
 export default App;
