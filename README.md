@@ -28,7 +28,8 @@
     
     pod setup
     pod install
-    open SaleHero_App.xcworkspace
+    
+    open SaleHero_App.xcworkspace // 실행
 ````
 
 <br />
@@ -47,4 +48,9 @@
 `의존성`
 ````
     yarn add react-native-linear-gradient
+    
+    yarn add @react-navigation/native @react-navigation/native-stack @react-navigation/bottom-tabs react-native-screens react-native-safe-area-context
+    yarn add styled-components axios zustand
+    yarn add -D @types/styled-components-react-native
+    npx pod-install ios
 ````
